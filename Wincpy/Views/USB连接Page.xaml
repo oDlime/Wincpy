@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Wincpy.Views.USB连接Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="ContentArea">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <NumberBox Name="fenbianlv" Header="分辨率" Value="NaN" PlaceholderText="1024" AcceptsExpression="false" Width="150" Grid.Row="0" Grid.Column="0"/>
+        <NumberBox Name="zhenlv" Header="帧率" Value="60" SpinButtonPlacementMode="Inline" SmallChange="10" LargeChange="100"  Grid.Row="0" Grid.Column="1" Width="150"/>
+        <CheckBox Name="zhiding" Content="置顶" Grid.Row="1" Grid.Column="0" Margin="20 20 0 0"/>
+        <TextBox Name="malv" Header="码率 (M或k)" PlaceholderText="8M"  Grid.Row="1" Grid.Column="1" Width="150"/>
+        <CheckBox Name="zhidu" Content="只读" Grid.Row="2" Grid.Column="0" Margin="20 20 0 0" Click="zhidu_Click"/>
+        <CheckBox Name="changliang" Content="屏幕常亮" Grid.Row="1" Grid.Column="0" Margin="100 20 0 0" Click="changliang_Click"/>
+        <CheckBox Name="xiping" Content="设备息屏" Grid.Row="2" Grid.Column="0" Margin="100 20 0 0" Click="xiping_Click"/>
+        <ComboBox Name="devis"  ItemsSource="{Binding devices}" DisplayMemberPath="{Binding devices}" SelectedValuePath="{Binding devices}"
+          Header="设备列表" Width="150" Loaded="devis_Loaded" Grid.Row="4" Grid.Column="1" Margin="75 0 0 0"/>
+        <Button Content="检测" Grid.Row="4" Grid.Column="1" Margin="230 27 0 0" Click="btnTestDev"/>
+        <Button Content="连接" Grid.Row="5" Grid.Column="1" Margin="75 0 0 0" Width="200" Click="BtnConn"/>
+        <TextBlock Text="" Grid.Row="6" Grid.Column="0" Margin="45 20 0 0" Name="txtLog"/>
+        <ProgressRing Name="prog" IsActive="False" Grid.Row="6" Grid.Column="0" Margin="0 0 150 0"/>
+    </Grid>
+</Page>

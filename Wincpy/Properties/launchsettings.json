@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "Wincpy (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "Wincpy (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

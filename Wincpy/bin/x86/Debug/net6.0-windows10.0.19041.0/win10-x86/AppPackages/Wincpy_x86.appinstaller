@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///D:/apps/main/Wincpy/Wincpy_x86.appinstaller"
+	Version="2.4.9.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="D56E843C-7ED9-49B1-992F-CA783621E013"
+		Version="2.4.9.0"
+		Publisher="CN=oDlime"
+		Uri="file:///D:/apps/main/Wincpy/Wincpy_2.4.9.0_x86_Debug_Test/Wincpy_2.4.9.0_x86_Debug.msix"
+		ProcessorArchitecture="x86" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.1"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x86"
+			Uri="file:///D:/apps/main/Wincpy/Wincpy_2.4.9.0_x86_Debug_Test/Dependencies/x86/Microsoft.WindowsAppRuntime.1.1.msix"
+			Version="1003.565.600.0" />
+	</Dependencies>
+	<!-- Read more about updating settings with Package.appinstaller at https://docs.microsoft.com/windows/msix/app-installer/update-settings -->
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

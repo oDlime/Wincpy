@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</Source>
+    <SmallTileSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</SmallTileSource>
+    <MediumTileSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</MediumTileSource>
+    <WideTileSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</WideTileSource>
+    <LargeTileSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</LargeTileSource>
+    <AppIconSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</AppIconSource>
+    <SplashScreenSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</SplashScreenSource>
+    <BadgeLogoSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</BadgeLogoSource>
+    <PackageLogoSource>D:\document\code\vs\Wincpy\Wincpy\Assets\icon.png</PackageLogoSource>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+</Project>
