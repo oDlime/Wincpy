@@ -1,82 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\document\\code\\vs\\Wincpy\\Wincpy\\Wincpy.csproj": {}
+    "D:\\document\\GitHub\\Wincpy\\Wincpy.csproj": {}
   },
   "projects": {
-    "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\Wincpy.Core.csproj": {
+    "D:\\document\\GitHub\\Wincpy\\Wincpy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\Wincpy.Core.csproj",
-        "projectName": "Wincpy.Core",
-        "projectPath": "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\Wincpy.Core.csproj",
-        "packagesPath": "C:\\Users\\oDlim\\.nuget\\packages\\",
-        "outputPath": "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\apps\\logs\\VS\\tool\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\oDlim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\document\\code\\vs\\Wincpy\\Wincpy\\Wincpy.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\document\\code\\vs\\Wincpy\\Wincpy\\Wincpy.csproj",
+        "projectUniqueName": "D:\\document\\GitHub\\Wincpy\\Wincpy.csproj",
         "projectName": "Wincpy",
-        "projectPath": "D:\\document\\code\\vs\\Wincpy\\Wincpy\\Wincpy.csproj",
+        "projectPath": "D:\\document\\GitHub\\Wincpy\\Wincpy.csproj",
         "packagesPath": "C:\\Users\\oDlim\\.nuget\\packages\\",
-        "outputPath": "D:\\document\\code\\vs\\Wincpy\\Wincpy\\obj\\",
+        "outputPath": "D:\\document\\GitHub\\Wincpy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\apps\\logs\\VS\\tool\\NuGetPackages"
@@ -97,8 +32,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\Wincpy.Core.csproj": {
-                "projectPath": "D:\\document\\code\\vs\\Wincpy\\Wincpy.Core\\Wincpy.Core.csproj"
+              "D:\\document\\GitHub\\Wincpy.Core\\Wincpy.Core.csproj": {
+                "projectPath": "D:\\document\\GitHub\\Wincpy.Core\\Wincpy.Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7yMqeUVNItw4K4/Y0seuf7E6fGiVtiKJjSGwh93V12bVPpLNvDIP+YJTsxbOOxNKRnblp5fdCj+9dKPRPeXsww==",
-  "success": true,
-  "projectFilePath": "D:\\document\\code\\vs\\Wincpy\\Wincpy\\Wincpy.csproj",
+  "dgSpecHash": "Lc1RArtZTdqZl+ORYzxcfFfXvrUApydi1KxKXJvIsqkEaJ6ciMOQyT4qkbVzaZHqqMdgdOakDTHCReAMzlGPfQ==",
+  "success": false,
+  "projectFilePath": "D:\\document\\GitHub\\Wincpy\\Wincpy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oDlim\\.nuget\\packages\\communitytoolkit.mvvm\\7.1.2\\communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
@@ -33,7 +33,6 @@
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.windowsappsdk\\1.1.3\\microsoft.windowsappsdk.1.1.3.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.xaml.behaviors.winui.managed\\2.0.8\\microsoft.xaml.behaviors.winui.managed.2.0.8.nupkg.sha512",
-    "C:\\Users\\oDlim\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -51,5 +50,18 @@
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.8\\microsoft.aspnetcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
     "C:\\Users\\oDlim\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.8\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.8.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "找不到项目“D:\\document\\GitHub\\Wincpy.Core\\Wincpy.Core.csproj”。请检查项目引用是否有效以及项目文件是否存在。",
+      "libraryId": "D:\\document\\GitHub\\Wincpy.Core\\Wincpy.Core.csproj",
+      "targetGraphs": [
+        "net6.0-windows10.0.19041",
+        "net6.0-windows10.0.19041/win10-arm64",
+        "net6.0-windows10.0.19041/win10-x64",
+        "net6.0-windows10.0.19041/win10-x86"
+      ]
+    }
+  ]
 }
